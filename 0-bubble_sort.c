@@ -2,8 +2,8 @@
 
 /**
  * bubble_sort - classify an aaray of integers in ascending order.
- * @aray:
- * @size: the
+ * @aray: array of integers to start
+ * @size: the size of the array to be sorted
  * Return: sorted array
  */
 void bubble_sort(int *array, size_t size)
@@ -16,7 +16,7 @@ void bubble_sort(int *array, size_t size)
 
 	while (check > 0)
 	{
-		for (i = 0; i < size -1; i++)
+		for(i = 0; i < size -1; i++)
 		{
 			if (array[i] > array[i + 1])
 			{
