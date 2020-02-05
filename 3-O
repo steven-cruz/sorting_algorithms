@@ -1,3 +1,3 @@
 O(nlong(n))
-O(nlong(n))
+O(long(n))
 O(n^2)
